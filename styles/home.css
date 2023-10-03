@@ -1,0 +1,6 @@
+.home{
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}

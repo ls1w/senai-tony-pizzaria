@@ -3,4 +3,14 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-container{
+    flex-grow: 1;
+    display: flex;
+}
+.destaque-container{
+    background-color: lightcyan;
+    height: 360px;
 }

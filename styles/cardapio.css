@@ -24,6 +24,12 @@
     padding-bottom: 32px;
 }
 
+.cardapio-menu{
+    background-color: tan;
+    display: flex;
+    flex-direction: column;
+}
+
 .header-area{
     display: flex;
     justify-content: space-between;
@@ -40,10 +46,6 @@
     justify-content: space-between;
 }
 
-.cardapio-menu{
-    background-color: tan;
-    height: 100px;
-}
 
 .cardapio-bebidas{
     background-color: violet;

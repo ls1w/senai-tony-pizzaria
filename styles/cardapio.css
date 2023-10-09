@@ -1,0 +1,34 @@
+.cardapio{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    padding: 32px 80px;
+}
+
+.cardapio-titulo{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.cardapio-titulo h3{
+    color: var(--cor-primaria);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.cardapio-favoritos{
+    background-color: lightcoral;
+    height: 100px;
+
+}
+
+.cardapio-menu{
+    background-color: tan;
+    height: 100px;
+}
+
+.cardapio-bebidas{
+    background-color: violet;
+    height: 100px;
+}

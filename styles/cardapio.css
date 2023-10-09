@@ -11,6 +11,7 @@
     align-items: center;
     gap: 24px;
 }
+
 .cardapio-titulo h3{
     color: var(--cor-primaria);
     font-weight: 600;
@@ -25,9 +26,10 @@
 }
 
 .cardapio-menu{
-    background-color: tan;
     display: flex;
     flex-direction: column;
+    gap: 12px;
+    padding-bottom: 32px;
 }
 
 .header-area{
@@ -48,6 +50,49 @@
 
 
 .cardapio-bebidas{
-    background-color: violet;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cardapio-bebidas .bebida{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    transition: .5s;
+    padding: 8px;
+}
+.cardapio-bebidas .add{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.cardapio-bebidas .bebida:hover{
+    box-shadow: 2px 2px 4px var(--cor-sombra);
+    border-radius: 4px;
+}
+
+.cardapio-bebidas .bebida:hover .add{
+    opacity: 1;
+}
+
+.cardapio-bebidas .info{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.cardapio-bebidas .info-preco{
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.cardapio-bebidas .info-texto{
+    font-size: .8rem;
+
 }

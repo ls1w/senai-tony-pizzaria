@@ -18,9 +18,26 @@
 }
 
 .cardapio-favoritos{
-    background-color: lightcoral;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 32px;
+}
 
+.header-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-area p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--cor-primaria);
+}
+
+.produtos-container{
+    display: flex;
+    justify-content: space-between;
 }
 
 .cardapio-menu{

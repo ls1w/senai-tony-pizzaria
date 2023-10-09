@@ -45,11 +45,11 @@
     padding: 0px 80px;
 }
 
-.destaque{
+/* .produto{
     position: relative;
 }
 
-.info{
+.produto .info{
     bottom: 10px;
     position: absolute;
     background-color: var(--cor-sombra);
@@ -65,26 +65,26 @@
     transition: 1s;
     opacity: 0;
 }
-.destaque:hover .info{
+.produto:hover .info{
     opacity: 1;
 }
-.add{
+.produto .add{
     position: absolute;
     top: -16px;
     right: -16px;
     opacity: 0;
     transition: 1s;
 }
-.destaque:hover .add{
+.produto:hover .add{
     opacity: 1;
 }
 
-.info-texto{
+.produto .info-texto{
     width: 140px;
 }
 
-.info-preco{
+.produto .info-preco{
     background-color: var(--cor-primaria);
     padding: 4px 8px;
     border-radius: 8px;
-}
+} */

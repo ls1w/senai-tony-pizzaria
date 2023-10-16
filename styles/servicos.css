@@ -1,0 +1,15 @@
+.servicos{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 80px 64px 80px;
+}
+
+.servicos-titulo{
+    background-color: aqua;
+    height: 65px;
+}
+
+.servicos-conteudo{
+    background-color: tomato;
+}

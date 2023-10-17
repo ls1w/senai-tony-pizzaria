@@ -1,5 +1,100 @@
 footer{
     background-color: var(--cor-primaria);
     color: var(--cor-branco);
-    height: 526px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+}
+
+.contatos-container{
+    display: flex;
+    padding-bottom: 42px;
+}
+
+.contato-logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    padding-right: 8px;
+    gap: 12px;
+}
+.contato-logo p{
+    font-size: 1.5rem;
+    font-family: pattaya;
+    width: 82px;
+}
+
+.contato-links{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contato-links p{
+    width: 80px;
+    font-size: 1.5rem;
+}
+
+.contato-links ul{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-weight: 200;
+}
+
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+.contatos > p{
+    font-size: 1.5rem;
+}
+.contatos ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contatos li{
+    display: flex;
+    gap: 12px;
+}
+.contatos li i{
+    font-size: 20px;
+}
+.contatos li p{
+    font-weight: 200;
+}
+
+.contato-sociais{
+    flex-grow: 1;
+}
+.contato-sociais ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contato-sociais a{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--cor-branco);
+    border-radius: 50%;
+}
+.contato-sociais i{
+    font-size: 20px;
+}
+
+
+.autor-container{
+    background-color: lightcoral;
+    height: 71px;
 }

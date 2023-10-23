@@ -16,7 +16,20 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
+.link-home{
+    background-color: yellow;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    bottom: 0;
+    font-size: 80px;
+    transform: translateX(-50%) rotate(90deg);
+}
 
 section{
     width: 100%;

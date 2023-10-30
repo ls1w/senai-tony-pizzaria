@@ -44,3 +44,16 @@
     align-items: center;
     padding: 0px 80px;
 }
+
+.destaque-container .destaque-container-all{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .conteudo-container img{
+        display: none;
+    }
+}

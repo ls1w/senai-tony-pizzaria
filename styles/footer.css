@@ -25,6 +25,11 @@ footer{
     width: 82px;
 }
 
+.contato-midle{
+    display: flex;
+    flex-grow: 1;
+}
+
 .contato-links{
     flex-grow: 1;
     display: flex;

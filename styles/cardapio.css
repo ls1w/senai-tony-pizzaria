@@ -45,7 +45,9 @@
 
 .produtos-container{
     display: flex;
-    justify-content: space-between;
+    overflow-x: hidden;
+    overflow-y: visible;
+    gap: 48px;
 }
 
 
@@ -67,7 +69,7 @@
 }
 .cardapio-bebidas .add{
     position: absolute;
-    top: -20px;
+    top: 0px;
     right: -20px;
     opacity: 0;
     transition: .5s;

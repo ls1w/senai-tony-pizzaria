@@ -109,3 +109,27 @@ footer{
     font-size: .9rem;
     font-style: italic;
 }
+
+@media (max-width:768px){
+    footer{
+        padding-top: 32px;
+    }
+    .contato-logo{
+        justify-content: center;
+        padding-bottom: 64px;
+    }
+    .contatos-container{
+        flex-direction: column;
+    }
+    .contato-sociais ul{
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 64px;
+    }
+
+
+
+    .autor-container{
+        margin-bottom: 60px;
+    }
+}

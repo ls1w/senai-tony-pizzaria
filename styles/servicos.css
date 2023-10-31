@@ -51,3 +51,9 @@
     text-align: center;
     text-shadow: 2px 2px 8px var(--cor-sombra);
 }
+
+@media (max-width:768px){
+    .servicos-conteudo{
+        flex-direction: column;
+    }
+}

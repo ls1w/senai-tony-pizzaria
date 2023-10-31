@@ -48,12 +48,19 @@
 .destaque-container .destaque-container-all{
     display: flex;
     flex-grow: 1;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 @media (max-width: 768px){
     .conteudo-container img{
         display: none;
+    }
+
+    .destaque-container .destaque-container-all{
+        flex-direction: column;
+    }
+    .destaque-container{
+        height: 412px;
     }
 }

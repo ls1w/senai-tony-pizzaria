@@ -1,0 +1,41 @@
+.bebida{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    transition: .5s;
+    padding: 8px;
+}
+.bebida .add{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.bebida:hover{
+    box-shadow: 2px 2px 4px var(--cor-sombra);
+    border-radius: 4px;
+}
+
+.bebida:hover .add{
+    opacity: 1;
+}
+
+.bebida .info{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bebida .info-preco{
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.bebida .info-texto{
+    font-size: .8rem;
+
+}

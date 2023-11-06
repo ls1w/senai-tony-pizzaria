@@ -55,5 +55,7 @@
 @media (max-width:768px){
     .servicos-conteudo{
         flex-direction: column;
+
+        gap: 32px;
     }
 }

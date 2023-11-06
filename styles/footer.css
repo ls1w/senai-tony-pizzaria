@@ -7,6 +7,7 @@ footer{
 }
 
 .contatos-container{
+    flex-grow: 1;
     display: flex;
     padding-bottom: 42px;
 }
@@ -23,11 +24,6 @@ footer{
     font-size: 1.5rem;
     font-family: pattaya;
     width: 82px;
-}
-
-.contato-midle{
-    display: flex;
-    flex-grow: 1;
 }
 
 .contato-links{
@@ -78,6 +74,7 @@ footer{
 }
 
 .contato-sociais{
+    display: flex;
     flex-grow: 1;
 }
 .contato-sociais ul{
@@ -114,12 +111,16 @@ footer{
     footer{
         padding-top: 32px;
     }
+    .contatos-container{
+        flex-direction: column;
+        align-items: center;
+    }
     .contato-logo{
         justify-content: center;
         padding-bottom: 64px;
     }
-    .contatos-container{
-        flex-direction: column;
+    .contato-links{
+        display: none;
     }
     .contato-sociais ul{
         flex-direction: row;

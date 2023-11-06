@@ -1,7 +1,7 @@
 .home{
-    background-image: url(../img/background.svg);
+    background-image: url(../img/background-tablet.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right top;
     background-size: contain;
     display: flex;
     flex-direction: column;
